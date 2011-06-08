@@ -18,11 +18,14 @@ no_index:
     - inc
     - t
 requires:
+  CGI::Compile: 0.14
+  CGI::Emulate::PSGI: 0.1
   Plack: 0.99
+  Plack::App::File::DirectoryIndex: 0.1
   Plack::Middleware::SSI: 0.1
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=W3C-Validator-Server
   homepage: http://search.cpan.org/dist/W3C-Validator-Server
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jhthorsen/w3c-validator-server.git
-version: 0.1001
+version: 0.1002
