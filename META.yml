@@ -27,4 +27,4 @@ resources:
   homepage: http://search.cpan.org/dist/W3C-Validator-Server
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jhthorsen/w3c-validator-server.git
-version: 0.12
+version: 0.1201
